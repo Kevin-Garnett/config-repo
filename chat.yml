@@ -11,7 +11,7 @@ spring:
           content-type: application/json
         newComments:
           destination: learning-spring-boot-chat
-          group: comments-chat
+          group: new-comments-chat
           content-type: application/json
         clientToBroker:
           destination: learning-spring-boot-chat-user-messages
